@@ -1,0 +1,2 @@
+java -Djava.library.path="JNIDemoCdl/dist/Debug/Cygwin64-Windows" -classpath JNIDemoJava/build/classes/ jnidemojava.JNIDemoJava
+
