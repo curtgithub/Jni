@@ -4,6 +4,11 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <logicalFolder name="headers" displayName="headers" projectFiles="true">
+        <itemPath>D:/curtgithub/Jni/JNIDemoCdl/headers/JNIDemoJava.h</itemPath>
+        <itemPath>D:/curtgithub/Jni/JNIDemoCdl/headers/PassStringJtoC.h</itemPath>
+        <itemPath>D:/curtgithub/Jni/JNIDemoCdl/headers/jnidemojava_HelloWorld.h</itemPath>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -13,12 +18,9 @@
                    displayName="Source Files"
                    projectFiles="true">
       <logicalFolder name="src" displayName="src" projectFiles="true">
-        <itemPath>D:/projects/curtgithub/Examples/JNIDemoCdl/src/HelloWorld.c</itemPath>
-        <itemPath>D:/projects/curtgithub/Examples/JNIDemoCdl/src/JNIDemo.c</itemPath>
-        <itemPath>D:/projects/curtgithub/Examples/JNIDemoCdl/src/JNIDemoJava.h</itemPath>
-        <itemPath>D:/projects/curtgithub/Examples/JNIDemoCdl/src/PassStringJtoC.c</itemPath>
-        <itemPath>D:/projects/curtgithub/Examples/JNIDemoCdl/src/PassStringJtoC.h</itemPath>
-        <itemPath>D:/projects/curtgithub/Examples/JNIDemoCdl/src/jnidemojava_HelloWorld.h</itemPath>
+        <itemPath>D:/curtgithub/Jni/JNIDemoCdl/src/HelloWorld.c</itemPath>
+        <itemPath>D:/curtgithub/Jni/JNIDemoCdl/src/JNIDemoJava.c</itemPath>
+        <itemPath>D:/curtgithub/Jni/JNIDemoCdl/src/PassStringJtoC.c</itemPath>
       </logicalFolder>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -34,58 +36,55 @@
     </logicalFolder>
   </logicalFolder>
   <sourceRootList>
-    <Elem>src</Elem>
+    <Elem>D:\curtgithub\Jni\JNIDemoCdl\headers</Elem>
+    <Elem>D:\curtgithub\Jni\JNIDemoCdl\src</Elem>
   </sourceRootList>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
     <conf name="Debug" type="2">
       <toolsSet>
-        <compilerSet>Cygwin64|Cygwin</compilerSet>
+        <compilerSet>default</compilerSet>
         <dependencyChecking>true</dependencyChecking>
         <rebuildPropChanged>false</rebuildPropChanged>
       </toolsSet>
       <compileType>
         <cTool>
-          <commandlineTool>gcc</commandlineTool>
           <incDir>
-            <pElem>D:/projects/curtgithub/Examples/JNIDemoCdl/src</pElem>
-            <pElem>D:/programs/Java/jdk1.8.0_65/include</pElem>
-            <pElem>D:/programs/Java/jdk1.8.0_65/include/win32</pElem>
+            <pElem>../../../programs/Java/jdk1.8.0_65/include</pElem>
+            <pElem>../../../programs/Java/jdk1.8.0_65/include/win32</pElem>
+            <pElem>headers</pElem>
           </incDir>
           <commandLine>-D__int64="long long"</commandLine>
         </cTool>
-        <linkerTool>
-          <commandlineTool>x86_64-w64-mingw32-g++</commandlineTool>
-        </linkerTool>
       </compileType>
-      <item path="D:/projects/curtgithub/Examples/JNIDemoCdl/src/HelloWorld.c"
-            ex="false"
-            tool="0"
-            flavor2="0">
-      </item>
-      <item path="D:/projects/curtgithub/Examples/JNIDemoCdl/src/JNIDemo.c"
-            ex="false"
-            tool="0"
-            flavor2="0">
-      </item>
-      <item path="D:/projects/curtgithub/Examples/JNIDemoCdl/src/JNIDemoJava.h"
+      <item path="D:/curtgithub/Jni/JNIDemoCdl/headers/JNIDemoJava.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="D:/projects/curtgithub/Examples/JNIDemoCdl/src/PassStringJtoC.c"
+      <item path="D:/curtgithub/Jni/JNIDemoCdl/headers/PassStringJtoC.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/curtgithub/Jni/JNIDemoCdl/headers/jnidemojava_HelloWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/curtgithub/Jni/JNIDemoCdl/src/HelloWorld.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="D:/projects/curtgithub/Examples/JNIDemoCdl/src/PassStringJtoC.h"
+      <item path="D:/curtgithub/Jni/JNIDemoCdl/src/JNIDemoJava.c"
             ex="false"
-            tool="3"
+            tool="0"
             flavor2="0">
       </item>
-      <item path="D:/projects/curtgithub/Examples/JNIDemoCdl/src/jnidemojava_HelloWorld.h"
+      <item path="D:/curtgithub/Jni/JNIDemoCdl/src/PassStringJtoC.c"
             ex="false"
-            tool="3"
+            tool="0"
             flavor2="0">
       </item>
     </conf>
@@ -109,34 +108,34 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
-      <item path="D:/projects/curtgithub/Examples/JNIDemoCdl/src/HelloWorld.c"
-            ex="false"
-            tool="0"
-            flavor2="0">
-      </item>
-      <item path="D:/projects/curtgithub/Examples/JNIDemoCdl/src/JNIDemo.c"
-            ex="false"
-            tool="0"
-            flavor2="0">
-      </item>
-      <item path="D:/projects/curtgithub/Examples/JNIDemoCdl/src/JNIDemoJava.h"
+      <item path="D:/curtgithub/Jni/JNIDemoCdl/headers/JNIDemoJava.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="D:/projects/curtgithub/Examples/JNIDemoCdl/src/PassStringJtoC.c"
+      <item path="D:/curtgithub/Jni/JNIDemoCdl/headers/PassStringJtoC.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/curtgithub/Jni/JNIDemoCdl/headers/jnidemojava_HelloWorld.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="D:/curtgithub/Jni/JNIDemoCdl/src/HelloWorld.c"
             ex="false"
             tool="0"
             flavor2="0">
       </item>
-      <item path="D:/projects/curtgithub/Examples/JNIDemoCdl/src/PassStringJtoC.h"
+      <item path="D:/curtgithub/Jni/JNIDemoCdl/src/JNIDemoJava.c"
             ex="false"
-            tool="3"
+            tool="0"
             flavor2="0">
       </item>
-      <item path="D:/projects/curtgithub/Examples/JNIDemoCdl/src/jnidemojava_HelloWorld.h"
+      <item path="D:/curtgithub/Jni/JNIDemoCdl/src/PassStringJtoC.c"
             ex="false"
-            tool="3"
+            tool="0"
             flavor2="0">
       </item>
     </conf>

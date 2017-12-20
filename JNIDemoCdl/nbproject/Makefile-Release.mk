@@ -35,9 +35,9 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/_ext/147afae2/HelloWorld.o \
-	${OBJECTDIR}/_ext/147afae2/JNIDemo.o \
-	${OBJECTDIR}/_ext/147afae2/PassStringJtoC.o
+	${OBJECTDIR}/_ext/b9aa6bc1/HelloWorld.o \
+	${OBJECTDIR}/_ext/b9aa6bc1/JNIDemoJava.o \
+	${OBJECTDIR}/_ext/b9aa6bc1/PassStringJtoC.o
 
 
 # C Compiler Flags
@@ -64,20 +64,20 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libJNIDemoCdl.${CND_DLIB_EXT}: ${OBJE
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libJNIDemoCdl.${CND_DLIB_EXT} ${OBJECTFILES} ${LDLIBSOPTIONS} -shared
 
-${OBJECTDIR}/_ext/147afae2/HelloWorld.o: /cygdrive/D/projects/curtgithub/Examples/JNIDemoCdl/src/HelloWorld.c 
-	${MKDIR} -p ${OBJECTDIR}/_ext/147afae2
+${OBJECTDIR}/_ext/b9aa6bc1/HelloWorld.o: /cygdrive/D/curtgithub/Jni/JNIDemoCdl/src/HelloWorld.c 
+	${MKDIR} -p ${OBJECTDIR}/_ext/b9aa6bc1
 	${RM} "$@.d"
-	$(COMPILE.c) -O2  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/147afae2/HelloWorld.o /cygdrive/D/projects/curtgithub/Examples/JNIDemoCdl/src/HelloWorld.c
+	$(COMPILE.c) -O2  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/b9aa6bc1/HelloWorld.o /cygdrive/D/curtgithub/Jni/JNIDemoCdl/src/HelloWorld.c
 
-${OBJECTDIR}/_ext/147afae2/JNIDemo.o: /cygdrive/D/projects/curtgithub/Examples/JNIDemoCdl/src/JNIDemo.c 
-	${MKDIR} -p ${OBJECTDIR}/_ext/147afae2
+${OBJECTDIR}/_ext/b9aa6bc1/JNIDemoJava.o: /cygdrive/D/curtgithub/Jni/JNIDemoCdl/src/JNIDemoJava.c 
+	${MKDIR} -p ${OBJECTDIR}/_ext/b9aa6bc1
 	${RM} "$@.d"
-	$(COMPILE.c) -O2  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/147afae2/JNIDemo.o /cygdrive/D/projects/curtgithub/Examples/JNIDemoCdl/src/JNIDemo.c
+	$(COMPILE.c) -O2  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/b9aa6bc1/JNIDemoJava.o /cygdrive/D/curtgithub/Jni/JNIDemoCdl/src/JNIDemoJava.c
 
-${OBJECTDIR}/_ext/147afae2/PassStringJtoC.o: /cygdrive/D/projects/curtgithub/Examples/JNIDemoCdl/src/PassStringJtoC.c 
-	${MKDIR} -p ${OBJECTDIR}/_ext/147afae2
+${OBJECTDIR}/_ext/b9aa6bc1/PassStringJtoC.o: /cygdrive/D/curtgithub/Jni/JNIDemoCdl/src/PassStringJtoC.c 
+	${MKDIR} -p ${OBJECTDIR}/_ext/b9aa6bc1
 	${RM} "$@.d"
-	$(COMPILE.c) -O2  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/147afae2/PassStringJtoC.o /cygdrive/D/projects/curtgithub/Examples/JNIDemoCdl/src/PassStringJtoC.c
+	$(COMPILE.c) -O2  -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/_ext/b9aa6bc1/PassStringJtoC.o /cygdrive/D/curtgithub/Jni/JNIDemoCdl/src/PassStringJtoC.c
 
 # Subprojects
 .build-subprojects:
