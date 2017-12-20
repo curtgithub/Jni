@@ -56,6 +56,9 @@
           </incDir>
           <commandLine>-D__int64="long long"</commandLine>
         </cTool>
+        <linkerTool>
+          <commandlineTool>x86_64-w64-mingw32-g++.exe</commandlineTool>
+        </linkerTool>
       </compileType>
       <item path="D:/curtgithub/Jni/JNIDemoCdl/headers/JNIDemoJava.h"
             ex="false"
